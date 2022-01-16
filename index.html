@@ -65,9 +65,7 @@
                      <li class="nav-item">
                         <a href="#gallery" class="nav-link scroll">Gallery</a>
                      </li>
-                     <li class="nav-item">
-                        <a href="#testimonials" class="nav-link scroll">Clients</a>
-                     </li>
+                     
                      <li class="nav-item">
                         <a href="#contact" class="nav-link scroll">Contact</a>
                      </li>
@@ -587,18 +585,18 @@
       <div class="row contact-wls-detail">
       <div class="col-lg-12 col-md-12 contact-form">
       <div class="agile-wls-contact-mid">
-      <form>
+      <form id="submit-form"  action="">
       <div class="form-group contact-forms">
-      <input type="text" class="form-control" placeholder="Name">
+      <input type="text" class="form-control" name="NAME" placeholder="Name">
       </div>
       <div class="form-group contact-forms">
-      <input type="email" class="form-control" placeholder="Enter">
+      <input type="email" class="form-control" name="EMAIL" placeholder="Email">
       </div>
       <div class="form-group contact-forms">
-      <input type="text" class="form-control" placeholder="Phone">
+      <input type="text" class="form-control" name="PHONE" placeholder="Phone">
       </div>
       <div class="form-group contact-forms">
-      <textarea class="form-control" rows="3"></textarea>
+      <textarea class="form-control" name="TEXT" rows="3"></textarea>
       </div>
       <button type="submit" class="btn btn-block sent-butnn">Submit</button>
       </form>
@@ -724,5 +722,27 @@
       <!--bootstrap working-->
       <script src="js/bootstrap.min.js"></script>
       <!-- //bootstrap working-->
+
+
+
+      <script>
+         $("#submit-form").submit((e)=>{
+             e.preventDefault()
+             $.ajax({
+                 url:"https://script.google.com/macros/s/AKfycbxN82w31qyf8jZ0L4NM4jgYzcFozwfMJUUd1uD49afpBxg58iJff9Hxy06ABhmWM0Gh/exec",
+                 data:$("#submit-form").serialize(),
+                 method:"post",
+                 success:function (response){
+                     alert("Form submitted successfully")
+                     window.location.reload()
+                     //window.location.href="https://google.com"
+                 },
+                 error:function (err){
+                     alert("Something Error")
+     
+                 }
+             })
+         })
+     </script>
    </body>
 </html>
