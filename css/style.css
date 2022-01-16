@@ -1,20 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@500&display=swap');
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 .white{
     color: white;
 }
+
 html,
 body {
     padding: 0;
     margin: 0;
     background: #fff;
     letter-spacing: 1px;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body a {
@@ -92,7 +88,7 @@ ul {
 }
 h3 span {
     font-size: 43px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
     text-transform: capitalize;
     font-weight: 300;
     color:#141414;
@@ -115,7 +111,7 @@ h1 a.navbar-brand {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 2px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Mochiy Pop P One', sans-serif;
 }
 nav.navbar.navbar-expand-lg.navbar-light {
     padding: 1em 1em;
@@ -127,7 +123,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     left: 0px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color:#000;
+    color:#fff;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
@@ -313,7 +309,7 @@ a {
     color: #ffffff;
     font-size: 3.5em;
     font-weight: 300;
-	font-family: 'Lobster', cursive;
+	font-family: 'Mochiy Pop P One', sans-serif;
 	text-shadow: -2px 0px 8px rgba(149, 150, 150, 1);
 }
 .slider-info p {
@@ -439,7 +435,7 @@ background-size:40px;
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
-		font-family: 'Lobster', cursive;
+	font-family: 'Mochiy Pop P One', sans-serif;
 }
 .photo-agile-left p,.photo-stats-text p {
     color:#cacaca;
@@ -711,17 +707,22 @@ figure:hover+span {
     -o-background-size: cover;
     -ms-background-size: cover;
 }
+.contact-forms input{
+    border-radius: 10px !important;
+}
 .contact-forms input, .contact-forms textarea {
+    border-radius: 10px !important;
     font-size: 14px;
     color: #000;
     padding: 1em;
     border: none;
-    border-bottom: 1px solid #00a581;
+    border-bottom: 1px solid black;
     border-radius: 0px;
     background: rgba(222, 222, 222, 0.3411764705882353);
     outline: none;
 }
 .contact-forms textarea {
+    
     resize: none;
     height: 10em;
 }
