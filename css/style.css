@@ -93,7 +93,7 @@ h3 span {
     font-family: 'Lobster', cursive;
     text-transform: capitalize;
     font-weight: 300;
-    color:#e25580;
+    color:#75c9b7;
 }
 .clr {
     color: #fff;
@@ -117,7 +117,7 @@ h1 a.navbar-brand {
 }
 nav.navbar.navbar-expand-lg.navbar-light {
     padding: 1em 1em;
-    background:#e25580;
+    background:#75c9b7;
 	z-index: 999;
     position: fixed;
     width: 100%;
@@ -327,11 +327,11 @@ a {
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color:#e25580;
+    background-color:#75c9b7;
     outline: none;
     padding: 10px 22px;
     border-radius: 50px;
-    border: 2px double #e25580;
+    border: 2px double #75c9b7;
 }
 .outs_more-buttn a:hover,.outs-about-buttn a:hover {
     background: rgba(255, 255, 255, 0.17);
@@ -427,11 +427,13 @@ background-size:40px;
     box-shadow: -1px -1px 17px 6px #d6d6d6;
 }
 .photo-agile-left,.photo-stats-text {
-    background: #00adcb;
+    border-radius: 10px;
+    background: #00a581;
     margin-top: 5em;
     padding: 2em 2em;
 }
 .photo-agile-left h2 {
+  
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
@@ -444,7 +446,7 @@ background-size:40px;
 /*-- counter--*/
 .counter {
     font-size: 39px;
-    color:#e25580;
+    color:#75c9b7;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -486,7 +488,7 @@ background-size:40px;
     -ms-transition: 0.5s all;
 }
 .ser-icon {
-    background:#e25580;
+    background:#75c9b7;
 	    transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -495,7 +497,7 @@ background-size:40px;
 }
 .ser-text-wthree h5 {
     font-size: 18px;
-    color: #00adcb;
+    color: rgb(0, 165, 129);
     letter-spacing: 1px;
     margin: 0px 0px 10px;
 }
@@ -508,7 +510,7 @@ background-size:40px;
     padding: 1em 1em;
 }
 .effect-icon:hover .ser-icon span {
-    color:#e25580;
+    color:rgb(0, 165, 129);
 }
 .effect-icon:hover .ser-icon{background:#fff;}
 /*--// service-- */
@@ -600,7 +602,7 @@ figure:hover+span {
 }
 .text-right-team h4 {
     font-size: 22px;
-    color:#00adcb;
+    color:rgb(0, 165, 129);
 }
 .text-right-team p{
     color: #000;
@@ -614,7 +616,7 @@ figure:hover+span {
     letter-spacing: 0px;
     width: 37px;
     height: 37px;
-    color:#e25580;
+    color:#75c9b7;
     background: #000;
     line-height: 35px;
     text-align: center;
@@ -625,7 +627,7 @@ figure:hover+span {
     -moz-transition: 0.5s all;
 }
 .social-wthree-icons ul li a span:hover {
-    color:#00adcb;
+    color:rgb(0, 165, 129);
 }
 .txet-two-grids{display:flex;}
 .social-wthree-icons,.team-says {
@@ -643,7 +645,7 @@ figure:hover+span {
 .pricing-grid h3 {
     font-size: 20px;
     font-weight: 600;
-    color:#e25580;
+    color:#75c9b7;
     text-transform: capitalize;
     text-align: center;
 }
@@ -656,7 +658,7 @@ figure:hover+span {
 .pricing-grid h4 {
     font-size: 41px;
     font-weight: 500;
-    color:#e25580;
+    color:#75c9b7;
     position: relative;
     margin-top: 20px;
     text-align: center;
@@ -674,7 +676,7 @@ figure:hover+span {
     display: inline-block;
     font-size:14px;
     color: #fff;
-    background:#00adcb;
+    background:#00a581;
     padding: .5em 3em;
     margin-top: 1.2em;
     border-radius: 4px;
@@ -696,7 +698,7 @@ figure:hover+span {
 }
 .client h5 {
     font-size: 19px;
-    color: #00adcb;
+    color: rgb(0, 165, 129);
 }
 /* --//clients-- */
 .contact {
@@ -711,7 +713,7 @@ figure:hover+span {
     color: #000;
     padding: 1em;
     border: none;
-    border-bottom: 1px solid #00adcb;
+    border-bottom: 1px solid #00a581;
     border-radius: 0px;
     background: rgba(222, 222, 222, 0.3411764705882353);
     outline: none;
@@ -721,7 +723,8 @@ figure:hover+span {
     height: 10em;
 }
 .contactright {
-	    background: #00adcb;
+    border-radius: 10px;
+	    background: #00a581;
     padding:1.7em 0em;
 }
 .address_mail_footer_grids iframe {
@@ -744,13 +747,13 @@ font-size: 14px;
 color: #000;
 line-height: 34px;
 }
-.footer_grid_left p a:hover{color:#e25580;}
+.footer_grid_left p a:hover{color:rgb(0, 165, 129);}
 .sent-butnn {
 font-size: 17px;
 padding: 11px 0px;
 color: #000;
 margin-top: 2em;
-background:#e25580;
+background:#75c9b7;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
@@ -768,7 +771,7 @@ footer p {
     letter-spacing: 2px;
 }
 footer p a {
-    color:#e25580;
+    color:#75c9b7;
 }
 footer p a:hover {
 color: rgb(255, 255, 255);
@@ -777,6 +780,7 @@ color: rgb(255, 255, 255);
 }
 /*-- to-top --*/
 #toTop {
+
 display: none;
 text-decoration: none;
 position: fixed;
@@ -996,8 +1000,8 @@ div#navbarSupportedContent {
 padding: 12px 15px;
 }
 .navbar-light .navbar-toggler {
-    border-color: rgb(255, 255, 255);
-    background: #e25580;
+    border-color: #00a581(255, 255, 255);
+    background: #00a581;
     padding: 2px 6px;
     margin-top: 0px;
     outline: none;
