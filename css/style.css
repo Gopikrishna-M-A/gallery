@@ -5,7 +5,9 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-
+.white{
+    color: white;
+}
 html,
 body {
     padding: 0;
@@ -93,7 +95,7 @@ h3 span {
     font-family: 'Lobster', cursive;
     text-transform: capitalize;
     font-weight: 300;
-    color:#75c9b7;
+    color:#141414;
 }
 .clr {
     color: #fff;
@@ -117,7 +119,7 @@ h1 a.navbar-brand {
 }
 nav.navbar.navbar-expand-lg.navbar-light {
     padding: 1em 1em;
-    background:#75c9b7;
+    background:#141414;
 	z-index: 999;
     position: fixed;
     width: 100%;
@@ -327,11 +329,11 @@ a {
     text-transform: uppercase;
     display: inline-block;
     letter-spacing: 2px;
-    background-color:#75c9b7;
+    background-color:#141414;
     outline: none;
     padding: 10px 22px;
     border-radius: 50px;
-    border: 2px double #75c9b7;
+    border: 2px double #141414;
 }
 .outs_more-buttn a:hover,.outs-about-buttn a:hover {
     background: rgba(255, 255, 255, 0.17);
@@ -428,7 +430,7 @@ background-size:40px;
 }
 .photo-agile-left,.photo-stats-text {
     border-radius: 10px;
-    background: #00a581;
+    background: #141414;
     margin-top: 5em;
     padding: 2em 2em;
 }
@@ -463,6 +465,7 @@ background-size:40px;
 /*--// about-- */
 /*-- service-- */
 .service-img-grid{
+   
     background: url(../images/ss1.jpg) no-repeat 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -479,7 +482,7 @@ background-size:40px;
 }
 .ser-icon span {
     font-size: 47px;
-    color: #fff;
+    color: #141414;
 	line-height:149px;
 	    transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -488,7 +491,7 @@ background-size:40px;
     -ms-transition: 0.5s all;
 }
 .ser-icon {
-    background:#75c9b7;
+    background:#fff;
 	    transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -497,7 +500,7 @@ background-size:40px;
 }
 .ser-text-wthree h5 {
     font-size: 18px;
-    color: rgb(0, 165, 129);
+    color: #141414;
     letter-spacing: 1px;
     margin: 0px 0px 10px;
 }
@@ -510,7 +513,7 @@ background-size:40px;
     padding: 1em 1em;
 }
 .effect-icon:hover .ser-icon span {
-    color:rgb(0, 165, 129);
+    color:gray;
 }
 .effect-icon:hover .ser-icon{background:#fff;}
 /*--// service-- */
@@ -602,7 +605,7 @@ figure:hover+span {
 }
 .text-right-team h4 {
     font-size: 22px;
-    color:rgb(0, 165, 129);
+    color:#141414;
 }
 .text-right-team p{
     color: #000;
@@ -616,7 +619,7 @@ figure:hover+span {
     letter-spacing: 0px;
     width: 37px;
     height: 37px;
-    color:#75c9b7;
+    color:#fff;
     background: #000;
     line-height: 35px;
     text-align: center;
@@ -627,7 +630,7 @@ figure:hover+span {
     -moz-transition: 0.5s all;
 }
 .social-wthree-icons ul li a span:hover {
-    color:rgb(0, 165, 129);
+    color:rgb(155, 155, 155);
 }
 .txet-two-grids{display:flex;}
 .social-wthree-icons,.team-says {
@@ -645,7 +648,7 @@ figure:hover+span {
 .pricing-grid h3 {
     font-size: 20px;
     font-weight: 600;
-    color:#75c9b7;
+    color:#141414;
     text-transform: capitalize;
     text-align: center;
 }
@@ -658,7 +661,7 @@ figure:hover+span {
 .pricing-grid h4 {
     font-size: 41px;
     font-weight: 500;
-    color:#75c9b7;
+    color:#141414;
     position: relative;
     margin-top: 20px;
     text-align: center;
@@ -676,7 +679,7 @@ figure:hover+span {
     display: inline-block;
     font-size:14px;
     color: #fff;
-    background:#00a581;
+    background:#141414;
     padding: .5em 3em;
     margin-top: 1.2em;
     border-radius: 4px;
@@ -698,7 +701,7 @@ figure:hover+span {
 }
 .client h5 {
     font-size: 19px;
-    color: rgb(0, 165, 129);
+    color: #141414;
 }
 /* --//clients-- */
 .contact {
@@ -724,7 +727,7 @@ figure:hover+span {
 }
 .contactright {
     border-radius: 10px;
-	    background: #00a581;
+	    background: #141414;
     padding:1.7em 0em;
 }
 .address_mail_footer_grids iframe {
@@ -744,23 +747,24 @@ figure:hover+span {
 }
 .footer_grid_left p,.footer_grid_left p a{
 font-size: 14px;
-color: #000;
+color: rgb(255, 255, 255);
 line-height: 34px;
 }
 .footer_grid_left p a:hover{color:rgb(0, 165, 129);}
 .sent-butnn {
 font-size: 17px;
 padding: 11px 0px;
-color: #000;
+color: rgb(255, 255, 255);
 margin-top: 2em;
-background:#75c9b7;
+background:#141414;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
     -moz-transition: 0.5s all;
 }
-.sent-butnn:hover{background:#00adcb; 
-color:#fff;}
+.sent-butnn:hover{background:#fff; 
+    border-color: black;
+color:#141414;}
 /*--// contact-- */
 /*-- footer-- */
 footer{background:#000;
@@ -1294,5 +1298,11 @@ footer p {
 }
 
 
+}
+@media(max-width:570px){
+
+.service-img-grid{
+display: none;
+}
 }
 /*--//responsive--*/
